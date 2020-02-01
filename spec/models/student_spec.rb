@@ -6,7 +6,7 @@ describe Student do
   end
 
   it 'can be created' do
-    student = Student.create!(title: "My title", description: "The post description")
+    student = Student.create!(first_name: "Daenerys", last_name: "Targaryen")
     expect(@student).to be_valid
   end
 
